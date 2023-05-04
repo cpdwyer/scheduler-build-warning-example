@@ -2,7 +2,10 @@
   "name": "scheduler-build-warning-example",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
+    "@bryntum/scheduler": "^5.3.4",
+    "@bryntum/scheduler-react": "^5.3.4",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -34,5 +37,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "prettier": {
+    "printWidth": 160,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "jsxBracketSameLine": true
+  },
+  "packageManager": "yarn@3.2.0"
 }
